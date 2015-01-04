@@ -1,0 +1,14 @@
+(function () {
+  var app = angular.module('penPublicity', []);
+
+  app.controller('PenPController', function () {
+    this.esfero = {
+      id: "001",
+      name: "Esfero Linterna 2",
+      category: "Esfero Publicitario",
+      colors: ["Rojo", "Azul", "Verde"],
+      caracteristic: [],
+      description: "Un esfero de punta suave que a su vez brinda la oportunidad de ver lo que se escribe en la oscuridad."
+    };
+  });
+})();
