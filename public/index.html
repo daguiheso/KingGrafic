@@ -10,7 +10,7 @@
 <body>
 	<div ng-controller="PenPController as penPCtrl">
       <h1>{{penPCtrl.esfero.name}}</h1>      
-      <img src="img/esferosp/el2-1.jpg">      
+      <img src="img/{{penPCtrl.esfero.nameimg}}.jpg">      
       <ul>
         <li><strong>Colores:</strong> {{penPCtrl.esfero.colors.join(', ')}} </li>
         <li><strong>Categoria</strong> {{penPCtrl.esfero.category}}</li>        

@@ -5,6 +5,7 @@
     this.esfero = {
       id: "001",
       name: "Esfero Linterna 2",
+      nameimg: "esferosp/el2-1",
       category: "Esfero Publicitario",
       colors: ["Rojo", "Azul", "Verde"],
       caracteristic: [],
