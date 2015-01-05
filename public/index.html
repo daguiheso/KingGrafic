@@ -27,19 +27,46 @@
 	</div>	
 
 	<div class="container">	
-	<div ng-controller="PenPController as penPCtrl">
-		<div class="page-header">
-	      <h1>
-	      	{{penPCtrl.esfero.name}}      	
-	      </h1>  
-	    </div>    
-      <img src="img/{{penPCtrl.esfero.nameimg}}.jpg">      
-      <ul>
-        <li><strong>Colores:</strong> {{penPCtrl.esfero.colors.join(', ')}} </li>
-        <li><strong>Categoria</strong> {{penPCtrl.esfero.category}}</li>        
-      </ul>
-      <p>{{penPCtrl.esfero.description}}</p>
-	</div>
+		<div ng-controller="PenPController as penPCtrl">
+			<div class="page-header">
+		      <h1>
+		      	{{penPCtrl.esfero.category}}      	
+		      </h1>  
+		    </div> 
+
+
+		    <div class="row"> 
+		    	<div class="col-md-5">  
+			      <img src="img/{{penPCtrl.esfero.nameimg}}.jpg" width="300">
+			    </div>
+			    <div class="col-md-5">
+			    	<ul class="nav nav-tabs nav-justified"> 
+			    		<li class="active"><a href="#">{{penPCtrl.esfero.name}}</a></li>
+			    		<!-- <li><a href="#">Stats</a></li>	    		 -->
+			    	</ul>
+					<div class="tab-content">							
+				      	<ul class="list-group">
+				        	<li class="list-group-item">
+				        		<strong>Colores</strong>
+				        		<span class="pull-right">
+				        			{{penPCtrl.esfero.colors.join(', ')}}        			
+				        		</span> 
+				        	</li>
+				        	<li class="list-group-item">
+				        		<strong>Categoria</strong>
+				        		<span class="pull-right">
+				        			{{penPCtrl.esfero.category}}
+				        		</span>
+				        	</li>        
+				      	</ul>
+				        <!-- <p>{{penPCtrl.esfero.description}}</p> -->
+				        <div class="active" id="home">
+				            <p>{{penPCtrl.esfero.description}}</p>
+				        </div>
+					</div>
+			    </div>
+		    </div>
+		</div>
 	</div>
 	<script src="js/lib/angular.min.js"></script>
 	<script src="js/app.js"></script>
