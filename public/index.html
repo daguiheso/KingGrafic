@@ -41,28 +41,71 @@
 			    </div>
 			    <div class="col-md-5">
 			    	<ul class="nav nav-tabs nav-justified"> 
-			    		<li class="active"><a href="#">{{penPCtrl.esfero.name}}</a></li>
-			    		<!-- <li><a href="#">Stats</a></li>	    		 -->
+			    		<li class="active"><a href="#resumen">{{penPCtrl.esfero.name}}</a></li>
+			    		<li><a href="#fichaTecnica">Ficha Tecnica</a></li>	    		
 			    	</ul>
-					<div class="tab-content">							
-				      	<ul class="list-group">
-				        	<li class="list-group-item">
-				        		<strong>Colores</strong>
-				        		<span class="pull-right">
-				        			{{penPCtrl.esfero.colors.join(', ')}}        			
-				        		</span> 
-				        	</li>
-				        	<li class="list-group-item">
-				        		<strong>Categoria</strong>
-				        		<span class="pull-right">
-				        			{{penPCtrl.esfero.category}}
-				        		</span>
-				        	</li>        
-				      	</ul>
-				        <!-- <p>{{penPCtrl.esfero.description}}</p> -->
-				        <div class="active" id="home">
-				            <p>{{penPCtrl.esfero.description}}</p>
-				        </div>
+					<div class="tab-content">					
+						<div class="tab-pane active" id="resumen">	
+					      	<ul class="list-group">
+					        	<li class="list-group-item">
+					        		<strong>Colores</strong>
+					        		<span class="pull-right">
+					        			{{penPCtrl.esfero.colors.join(', ')}}      			
+					        		</span> 
+					        	</li>
+					        	<li class="list-group-item">
+					        		<strong>Categoria</strong>
+					        		<span class="pull-right">
+					        			{{penPCtrl.esfero.category}}
+					        		</span>
+					        	</li>        
+					      	</ul>
+					        <!-- <p>{{penPCtrl.esfero.description}}</p> -->
+					        <div class="active" id="resumen">
+					            <p>{{penPCtrl.esfero.description}}</p>
+					        </div>
+						</div>
+						
+						<div class="tab-pane active" id="fichaTecnica">
+					        <ul class="list-group">
+					        	<li class="list-group-item">
+					        		<strong>Height</strong>
+					        		<span class="pull-right">
+					        			{{penPCtrl.esfero.height}}        			
+					        		</span>		        		
+					        	</li>
+					        	<li class="list-group-item">
+					        		<strong>Width</strong>
+					        		<span class="pull-right">
+					        			{{penPCtrl.esfero.width}}        			
+					        		</span>		        		
+					        	</li>
+					        	<li class="list-group-item">
+					        		<strong>Material</strong>
+					        		<span class="pull-right">
+					        			{{penPCtrl.esfero.material}}       			
+					        		</span>		        		
+					        	</li>
+					        	<li class="list-group-item">
+					        		<strong>Tipo de Impresión</strong>
+					        		<span class="pull-right">
+					        			{{penPCtrl.esfero.typePrint}}      			
+					        		</span>		        		
+					        	</li>
+					        	<li class="list-group-item">
+					        		<strong>Área de Impresión</strong>
+					        		<span class="pull-right">
+					        			{{penPCtrl.esfero.areaPrint}}      			
+					        		</span>		        		
+					        	</li>
+					        	<li class="list-group-item">
+					        		<strong>Flete</strong>
+					        		<span class="pull-right">
+					        			{{penPCtrl.esfero.flete}}        			
+					        		</span>		        		
+					        	</li>
+					        </ul>
+					    </div>
 					</div>
 			    </div>
 		    </div>
