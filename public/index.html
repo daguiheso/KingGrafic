@@ -50,7 +50,9 @@
 					        	<li class="list-group-item">
 					        		<strong>Colores</strong>
 					        		<span class="pull-right">
-					        			{{penPCtrl.esfero.colors.join(', ')}}      			
+					        			<span ng-repeat="color in penPCtrl.esfero.colors" class="label color color-{{color | lowercase}}">
+					        				{{"-"}}
+					        			</span>        			     			
 					        		</span> 
 					        	</li>
 					        	<li class="list-group-item">
@@ -69,13 +71,13 @@
 						<div class="tab-pane active" id="fichaTecnica">
 					        <ul class="list-group">
 					        	<li class="list-group-item">
-					        		<strong>Height</strong>
+					        		<strong>Alto</strong>
 					        		<span class="pull-right">
 					        			{{penPCtrl.esfero.height}}        			
 					        		</span>		        		
 					        	</li>
 					        	<li class="list-group-item">
-					        		<strong>Width</strong>
+					        		<strong>Ancho</strong>
 					        		<span class="pull-right">
 					        			{{penPCtrl.esfero.width}}        			
 					        		</span>		        		

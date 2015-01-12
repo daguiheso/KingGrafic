@@ -18,3 +18,20 @@ body {
 .nav-tabs {
   margin-bottom: 10px;
 }
+
+.color{
+  margin-left: 2px;
+}
+
+.color-rojo{
+	background-color: red;
+}
+
+.color-azul{
+	background-color: blue;
+}
+
+.color-verde{
+	background-color: green;
+}
+
