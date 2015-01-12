@@ -2,6 +2,20 @@ body {
   padding-top: 50px;
 }
 
+img{
+  border: 2px solid gray;
+  border-radius: 4px;
+  box-shadow: 0px 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.imgP{
+  border: 0;
+}
+
+.border{  
+  margin: 5px 0px;
+}
+
 .navbar-brand {
   font-weight: 800;
 }
@@ -24,14 +38,17 @@ body {
 }
 
 .color-rojo{
-	background-color: red;
+  background-color: red;
 }
 
 .color-azul{
-	background-color: blue;
+  background-color: blue;
 }
 
 .color-verde{
-	background-color: green;
+  background-color: green;
 }
+
+
+
 
