@@ -29,8 +29,8 @@
   });  
 
   app.filter('imageify', function () {
-    return function (input) {
-      var url = "img/esferosp/" + input.toLowerCase() + ".jpg";
+    return function (input, ext) {
+      var url = "img/esferosp/" + input.toLowerCase() + "." + ext || "jpg";
       return url;
     };
   });
