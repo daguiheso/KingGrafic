@@ -19,5 +19,13 @@
       images: [ "el2-2", "el2-3", "el2-4" ]
     };
   });
+
+  app.controller('TabsController', function(){
+    this.tab = 1;
+
+    this.selectTab = function(tab){
+      this.tab = tab;
+    }
+  });  
 })();
 

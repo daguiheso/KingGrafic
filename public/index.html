@@ -39,17 +39,17 @@
 		    	<div class="col-md-5">  
 			      <img src="img/esferosp/{{penPCtrl.esfero.nameimg}}.jpg" width="300" class="imgP">
 			    </div>
-			    <div class="col-md-6">
+			    <div class="col-md-6" ng-controller="TabsController as tabs">
 			    	<!-- nav seleccion -->
 			    	<ul class="nav nav-tabs nav-justified"> 
-			    		<li ng-class="{ active : tab === 1 }"><a ng-click="tab = 1">Descripción</a></li>
-			    		<li ng-class="{ active : tab === 2 }"><a ng-click="tab = 2">Ficha Tecnica</a></li>	    		
-			    		<li ng-class="{ active : tab === 3 }"><a ng-click="tab = 3">Imagenes</a></li>	    		
+			    		<li ng-class="{ active : tabs.tab === 1 }"><a ng-click="tabs.selectTab(1)">Descripción</a></li>
+			    		<li ng-class="{ active : tabs.tab === 2 }"><a ng-click="tabs.selectTab(2)">Ficha Tecnica</a></li>	
+			    		<li ng-class="{ active : tabs.tab === 3 }"><a ng-click="tabs.selectTab(3)">Imagenes</a></li>  		
 			    	</ul>
 			    	
-					<div ng-init="tab = 1" class="tab-content">
+					<div class="tab-content">
 						<!-- resumen -->					
-						<div ng-show="tab === 1">	
+						<div ng-show="tabs.tab === 1">	
 					      	<ul class="list-group">
 					      		<li class="list-group-item">
 					      			<h3>{{penPCtrl.esfero.name}}</h3>
@@ -75,7 +75,7 @@
 						</div>
 						
 						<!-- Ficha Tecnica -->
-						<div ng-show="tab === 2">
+						<div ng-show="tabs.tab === 2">
 					        <ul class="list-group">
 					        	<li class="list-group-item">
 					        		<strong>Alto</strong>
@@ -117,7 +117,7 @@
 					    </div>
 
 					    <!-- Imagenes -->
-					    <div ng-show="tab === 3">	    	
+					    <div ng-show="tabs.tab === 3">	    	
 					    	<div class="text-center border" ng-repeat="img in penPCtrl.esfero.images">
 					    		<img src="img/esferosp/{{img}}.jpg" width="160">
 					    	</div>
