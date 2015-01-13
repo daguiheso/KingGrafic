@@ -16,6 +16,10 @@ img{
   margin: 5px 0px;
 }
 
+.form-group {
+  padding: 10px;
+}
+
 .navbar-brand {
   font-weight: 800;
 }
