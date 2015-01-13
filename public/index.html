@@ -39,23 +39,27 @@
 		    	<div class="col-md-5">  
 			      <img src="img/esferosp/{{penPCtrl.esfero.nameimg}}.jpg" width="300" class="imgP">
 			    </div>
-			    <div class="col-md-5">
+			    <div class="col-md-6">
 			    	<!-- nav seleccion -->
 			    	<ul class="nav nav-tabs nav-justified"> 
-			    		<li class="active"><a href="#resumen">{{penPCtrl.esfero.name}}</a></li>
-			    		<li><a href="#fichaTecnica">Ficha Tecnica</a></li>	    		
-			    		<li><a href="#image">Imagenes</a></li>	    		
+			    		<li ng-class="{ active : tab === 1 }"><a ng-click="tab = 1">Descripción</a></li>
+			    		<li ng-class="{ active : tab === 2 }"><a ng-click="tab = 2">Ficha Tecnica</a></li>	    		
+			    		<li ng-class="{ active : tab === 3 }"><a ng-click="tab = 3">Imagenes</a></li>	    		
 			    	</ul>
-			    	<!-- resumen -->
-					<div class="tab-content">					
-						<div class="tab-pane active" id="resumen">	
+			    	
+					<div class="tab-content">
+						<!-- resumen -->					
+						<div ng-show="tab === 1">	
 					      	<ul class="list-group">
+					      		<li class="list-group-item">
+					      			<h3>{{penPCtrl.esfero.name}}</h3>
+					      		</li>
 					        	<li class="list-group-item">
 					        		<strong>Colores</strong>
 					        		<span class="pull-right">
 					        			<span ng-repeat="color in penPCtrl.esfero.colors" class="label color color-{{color | lowercase}}">
 					        				{{"-"}}
-					        			</span>        			     			
+					        			</span>    			
 					        		</span> 
 					        	</li>
 					        	<li class="list-group-item">
@@ -65,13 +69,13 @@
 					        		</span>
 					        	</li>        
 					      	</ul>
-					        <div class="active" id="resumen">
+					        <div>
 					            <p ng-repeat="desc in penPCtrl.esfero.description">{{desc}}</p>
 					        </div>
 						</div>
 						
 						<!-- Ficha Tecnica -->
-						<div class="tab-pane active" id="fichaTecnica">
+						<div ng-show="tab === 2">
 					        <ul class="list-group">
 					        	<li class="list-group-item">
 					        		<strong>Alto</strong>
@@ -82,38 +86,38 @@
 					        	<li class="list-group-item">
 					        		<strong>Ancho</strong>
 					        		<span class="pull-right">
-					        			{{penPCtrl.esfero.width}}        			
-					        		</span>		        		
+					        			{{penPCtrl.esfero.width}}      			
+					        		</span>	        		
 					        	</li>
 					        	<li class="list-group-item">
 					        		<strong>Material</strong>
 					        		<span class="pull-right">
-					        			{{penPCtrl.esfero.material}}       			
-					        		</span>		        		
+					        			{{penPCtrl.esfero.material}}   			
+					        		</span>	        		
 					        	</li>
 					        	<li class="list-group-item">
 					        		<strong>Tipo de Impresión</strong>
 					        		<span class="pull-right">
-					        			{{penPCtrl.esfero.typePrint}}      			
-					        		</span>		        		
+					        			{{penPCtrl.esfero.typePrint}}  			
+					        		</span>	        		
 					        	</li>
 					        	<li class="list-group-item">
 					        		<strong>Área de Impresión</strong>
 					        		<span class="pull-right">
-					        			{{penPCtrl.esfero.areaPrint}}      			
-					        		</span>		        		
+					        			{{penPCtrl.esfero.areaPrint}}  			
+					        		</span>	        		
 					        	</li>
 					        	<li class="list-group-item">
 					        		<strong>Flete</strong>
 					        		<span class="pull-right">
-					        			{{penPCtrl.esfero.flete}}        			
-					        		</span>		        		
+					        			{{penPCtrl.esfero.flete}}      			
+					        		</span>		       		
 					        	</li>
 					        </ul>
 					    </div>
 
 					    <!-- Imagenes -->
-					    <div class="tab-pane active" id="image">					    	
+					    <div ng-show="tab === 3">	    	
 					    	<div class="text-center border" ng-repeat="img in penPCtrl.esfero.images">
 					    		<img src="img/esferosp/{{img}}.jpg" width="160">
 					    	</div>
