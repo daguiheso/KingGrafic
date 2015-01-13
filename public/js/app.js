@@ -27,5 +27,13 @@
       this.tab = tab;
     }
   });  
+
+  app.filter('imageify', function () {
+    return function (input) {
+      var url = "img/esferosp/" + input.toLowerCase() + ".jpg";
+      return url;
+    };
+  });
+
 })();
 
