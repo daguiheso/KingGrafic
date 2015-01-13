@@ -47,7 +47,7 @@
 			    		<li ng-class="{ active : tab === 3 }"><a ng-click="tab = 3">Imagenes</a></li>	    		
 			    	</ul>
 			    	
-					<div class="tab-content">
+					<div ng-init="tab = 1" class="tab-content">
 						<!-- resumen -->					
 						<div ng-show="tab === 1">	
 					      	<ul class="list-group">
