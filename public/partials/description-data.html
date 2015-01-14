@@ -1,0 +1,22 @@
+<ul class="list-group">
+  <li class="list-group-item">
+    <h3>{{penPCtrl.esfero.name}}</h3>
+  </li>
+  <li class="list-group-item">
+    <strong>Colores</strong>
+    <span class="pull-right">
+      <span ng-repeat="color in penPCtrl.esfero.colors" class="label color color-{{color | lowercase}}">
+        {{"-"}}
+      </span>         
+    </span> 
+  </li>
+  <li class="list-group-item">
+    <strong>Categoria</strong>
+    <span class="pull-right">
+      {{penPCtrl.esfero.category}}
+    </span>
+  </li>        
+</ul>
+<div>
+    <p ng-repeat="desc in penPCtrl.esfero.description">{{desc}}</p>
+</div>

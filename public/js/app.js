@@ -52,6 +52,13 @@
 
   });
 
+  app.directive('descriptionData', function(){
+    return{
+      restrict: 'E',
+      templateUrl: 'partials/description-data.html'
+    }
+  });
+
   app.filter('imageify', function () {
     return function (input, ext) {
       var url = "img/esferosp/" + input.toLowerCase() + "." + ext || "jpg";
