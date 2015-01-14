@@ -45,7 +45,9 @@
 
     //tampoco recibe params de entrada porque vamos a trabajar sobre el controller
     this.addComment = function(){
+      this.comment.date = Date.now();
       this.comments.push(this.comment); //.push() ingresa un elemento en la ultima posicion del array
+      this.comment = {}; //limpiar o resetear el comentario despues de agregado
     };
 
   });
