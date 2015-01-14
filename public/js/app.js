@@ -43,6 +43,11 @@
       }
     };
 
+    //tampoco recibe params de entrada porque vamos a trabajar sobre el controller
+    this.addComment = function(){
+      this.comments.push(this.comment); //.push() ingresa un elemento en la ultima posicion del array
+    };
+
   });
 
   app.filter('imageify', function () {
