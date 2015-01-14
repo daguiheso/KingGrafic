@@ -34,10 +34,9 @@
 		      </h1>  
 		    </div> 
 
-
 		    <div class="row"> 
 		    	<div class="col-md-5">  
-			      <img src="{{penPCtrl.esfero.nameimg | imageify : 'jpg'}}" width="300" class="imgP">
+		    		<imagen-data></imagen-data>
 			    </div>
 			    <div class="col-md-6" ng-controller="TabsController as tabs">
 			    	<!-- nav seleccion -->
@@ -55,51 +54,12 @@
 						
 						<!-- Ficha Tecnica -->
 						<div ng-show="tabs.tab === 2">
-					        <ul class="list-group">
-					        	<li class="list-group-item">
-					        		<strong>Alto</strong>
-					        		<span class="pull-right">
-					        			{{penPCtrl.esfero.height}}        			
-					        		</span>		        		
-					        	</li>
-					        	<li class="list-group-item">
-					        		<strong>Ancho</strong>
-					        		<span class="pull-right">
-					        			{{penPCtrl.esfero.width}}      			
-					        		</span>	        		
-					        	</li>
-					        	<li class="list-group-item">
-					        		<strong>Material</strong>
-					        		<span class="pull-right">
-					        			{{penPCtrl.esfero.material}}   			
-					        		</span>	        		
-					        	</li>
-					        	<li class="list-group-item">
-					        		<strong>Tipo de Impresión</strong>
-					        		<span class="pull-right">
-					        			{{penPCtrl.esfero.typePrint}}  			
-					        		</span>	        		
-					        	</li>
-					        	<li class="list-group-item">
-					        		<strong>Área de Impresión</strong>
-					        		<span class="pull-right">
-					        			{{penPCtrl.esfero.areaPrint}}  			
-					        		</span>	        		
-					        	</li>
-					        	<li class="list-group-item">
-					        		<strong>Flete</strong>
-					        		<span class="pull-right">
-					        			{{penPCtrl.esfero.flete}}      			
-					        		</span>		       		
-					        	</li>
-					        </ul>
+					        <fichatecnica-data></fichatecnica-data>
 					    </div>
 
 					    <!-- Imagenes -->
 					    <div ng-show="tabs.tab === 3">	    	
-					    	<div class="text-center border" ng-repeat="img in penPCtrl.esfero.images">
-					    		<img src="img/esferosp/{{img}}.jpg" width="160">
-					    	</div>
+					    	<imagenes-data></imagenes-data>
 					    </div>
 					</div>
 			    </div>

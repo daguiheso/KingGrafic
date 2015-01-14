@@ -59,6 +59,27 @@
     }
   });
 
+  app.directive('fichatecnicaData', function(){
+    return{
+      restrict: 'E',
+      templateUrl: 'partials/fichatecnica-data.html'
+    }
+  });
+
+  app.directive('imagenesData', function(){
+    return{
+      restrict: 'E',
+      templateUrl: 'partials/imagenes-data.html'
+    }
+  });
+
+  app.directive('imagenData', function(){
+    return{
+      restrict: 'E',
+      templateUrl: 'partials/imagen-data.html'
+    }
+  });
+
   app.filter('imageify', function () {
     return function (input, ext) {
       var url = "img/esferosp/" + input.toLowerCase() + "." + ext || "jpg";
