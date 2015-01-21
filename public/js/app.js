@@ -10,11 +10,17 @@
   //el modulo routeProvider esta siendo injectado a la funcion routeProvider
   app.config(['$routeProvider', function($routeProvider){
   	$routeProvider   //lamado de metodos encadenados
-  		.when('/', {  // when me hace match de la ruta  //el  /  => ruta principal
+  		.when('/',{  //el  /  => ruta principal
+  			templateUrl: 'views/kinggrafic.html'
+  		})
+  		.when('/esfero/:id', {  // when me hace match de la ruta  //variable id 
   			templateUrl: 'views/esfero.html', //objeto de configuracion de la ruta 
   			controller: 'PenPController', //injectando el controlador a esta ruta 
   			controllerAs: 'penPCtrl'
   		})
+  		.otherwise({
+  			redirectTo: '/'
+  		});
   }]);
 
 
