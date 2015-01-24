@@ -12,7 +12,7 @@
   	$routeProvider   //lamado de metodos encadenados
   		.when('/',{  //el  /  => ruta principal
   			templateUrl: 'views/kinggrafic.html',
-        controller: 'kinggraficController'
+        controller: 'PenPsController'
   		})
   		.when('/esfero/:id', {  // when me hace match de la ruta  //variable id 
   			templateUrl: 'views/esfero.html', //objeto de configuracion de la ruta 
