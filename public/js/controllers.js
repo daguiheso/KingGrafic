@@ -1,8 +1,12 @@
 (function() {
 	// 2 param es el arreglo de las dependencias 
 	angular.module('kinggrafic.controllers', []) //sin  ;  al final para tener chainmethods
-		.controller('PenPsController',['$scope', '$http', function($scope,$http){
-			
+		.controller('PenPsController', ['$scope', '$http', function($scope,$http){
+			$scope.penPs = [];
+			$http.get('/penP.json')
+				.success(function(data){ //esta variable data contiene los datos del array del esfero obtenido del servidor
+					$scope.penPs = data;
+				});
 		}])
 		.controller('PenPController', function () {
 		  this.esfero = {

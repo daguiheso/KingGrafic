@@ -2,4 +2,8 @@
 	<div class="page-header">
 		<h1>King Grafic</h1>
 	</div>
+	<div ng-repeat="esfero in penPs">
+	    <h1>{{esfero.name}} <small>{{esfero.state}}</small></h1>
+	    <img ng-src="{{esfero.nameimg | imageify: 'jpg' }}" class="imgP">
+	</div>
 </div>

@@ -1,0 +1,97 @@
+[
+  {
+    "id": "0001",
+    "name": "Esfero Linterna 2",
+    "nameimg": "el2-1",
+    "category": "Esferos Publicitarios",
+    "colors": [
+      "Rojo",
+      "Azul",
+      "Verde"
+    ],
+    "state": "En Stock",
+    "description": [
+      "Un esfero de punta suave que a su vez brinda la oportunidad de ver lo que se escribe en la oscuridad.",
+      "Cuenta con linterna integrada."
+    ],
+    "height": "15cm",
+    "material": "Plástico",
+    "typePrint": "Impresion en Tinta Plastica",
+    "areaPrint": "60 mm x 7.5 mm",
+    "flete": "Incluido por compras mayores a 250000",
+    "images": [
+      "el2-2",
+      "el2-3",
+      "el2-4"
+    ]
+  },
+  {
+    "id": "0002",
+    "name": "Esfero Táctil Resaltador",
+    "nameimg": "etr-1",
+    "category": "Esferos Publicitarios",
+    "colors": [
+      "Gris"
+    ],
+    "state": "En Stock",
+    "description": [
+      "Esfero con resalador embebido y punta táctil. Gire la tapa para retirar el resaltador"
+    ],
+    "height": "15.3cm",
+    "material": "Plástico",
+    "typePrint": "No realizamos la impresion sobre este productr",
+    "areaPrint": "",
+    "flete": "Incluido por compras mayores a 250000",
+    "images": [
+      "etr-2",
+      "etr-3",
+      "etr-4"
+    ]
+  },
+  {
+    "id": "0003",
+    "name": "Esfero Linterna",
+    "nameimg": "el-1",
+    "category": "Esferos Publicitarios",
+    "colors": [
+      "Negro",
+      "Plateado"
+    ],
+    "state": "En Transito",
+    "description": [
+      "Cuenta con linterna integrada."
+    ],
+    "height": "14cm",
+    "material": "Plástico",
+    "typePrint": "Impresion en Tinta Plastica",
+    "areaPrint": "Lateral derecho 55 mm x 8 mm",
+    "flete": "Incluido por compras mayores a 250000",
+    "images": [
+      "el-2"
+    ]
+  },
+  {
+    "id": "0004",
+    "name": "Esfero Cortauñas",
+    "nameimg": "ec-1",
+    "category": "Esferos Publicitarios",
+    "colors": [
+      "Azul",
+      "Rojo"
+    ],
+    "state": "En Transito",
+    "description": [
+      "Con un cortauñas como clip."
+    ],
+    "height": "11.6cm",
+    "material": "Plástico",
+    "typePrint": "Impresion en Tinta Plástica",
+    "areaPrint": "65 mm x 8 mm",
+    "flete": "Incluido por compras mayores a 250000",
+    "images": [
+      "ec-2",
+      "ec-3",
+      "ec-4"
+    ]
+  }
+]
