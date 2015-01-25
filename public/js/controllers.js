@@ -8,8 +8,8 @@
 					$scope.penPs = data;
 				});
 		}])
-		.controller('PenPController', function () {
-		  this.esfero = {
+		.controller('PenPController', ['$scope', function ($scope) {
+		  $scope.esfero = {
 		    id: "001",
 		    name: "Esfero Linterna 2",
 		    nameimg: "el2-1",
@@ -24,7 +24,7 @@
 		    flete: "Incluido por compras mayores a 250000",
 		    images: [ "el2-2", "el2-3", "el2-4" ]
 		  };
-		})
+		}])
 
 		.controller('TabsController', function(){
 		  this.tab = 1;

@@ -17,7 +17,6 @@
   		.when('/esfero/:id', {  // when me hace match de la ruta  //variable id 
   			templateUrl: 'views/esfero.html', //objeto de configuracion de la ruta 
   			controller: 'PenPController', //injectando el controlador a esta ruta 
-  			controllerAs: 'penPCtrl'
   		})
   		.otherwise({
   			redirectTo: '/'
