@@ -61,6 +61,17 @@ img{
   background-color: green;
 }
 
+.product {
+  padding: 20px;
+  margin-bottom: 10px;
+  border: solid 1px #D9230F;
+  border-radius: 20px;
+}
 
+.product:hover {
+  border: solid 3px #D9230F;
+}
 
-
+.product img {
+  width: 300px;
+}
