@@ -4,7 +4,10 @@
 	</div>
 	<div class="product" ng-repeat="esfero in penPs">
 		<a href="/#esfero/{{ esfero.name }}">
-	    <h1>{{esfero.name}} <small> {{esfero.state}}</small></h1>
-    	<imagen-data></imagen-data>	    
+	    <h1>{{esfero.name}}</h1>
+    	<imagen-data></imagen-data>	
+    	<div class="text-center">
+    		<small class="label label-info"> {{esfero.state}}</small>
+    	</div>    
 	</div>
 </div>
