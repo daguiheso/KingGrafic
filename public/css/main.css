@@ -61,17 +61,32 @@ img{
   background-color: green;
 }
 
-.product {
-  padding: 20px;
-  margin-bottom: 10px;
-  border: solid 1px #D9230F;
-  border-radius: 20px;
+.product {  
+  height: 350px;
 }
 
-.product:hover {
-  border: solid 3px #D9230F;
+.product h1 {
+  margin: 0;
+  color: #fff;
+  font-size: 18px;
+}
+
+.product h1 > small {
+  color: #ccc;
 }
 
 .product img {
-  width: 300px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  max-width: 200px;
+  max-height: 220px;
+}
+
+.product .panel-body {
+  position: relative;
+  height: 250px;
 }
