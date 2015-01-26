@@ -1,6 +1,8 @@
 (function(){
 	angular.module('kinggrafic.services',[])
-		.factory('kinggraficService', ['$http', '$q',function($http, $q){
+		.factory('kinggraficService', ['$http', '$q', '$filter', function($http, $q, $filter){
+			//logica del negocio del product
+			var normalize = $filter('normalize');
 
 			function all(){
 				var deferred = $q.defer(); //metodo defer me permite interactuar con la promise
@@ -12,8 +14,27 @@
 				return deferred.promise;
 			}
 
-			return {
-				all : all
+			function byName(name) {
+				name = normalize(name);
+				var deferred = $q.defer();
+				
+				all().then(function (data){
+					var results = data.filter(function (esfero){ // .filter => funcionalidad de JS
+						return normalize(esfero.name) === name;
+					});
+
+					if (results.length > 0) {
+						deferred.resolve(results[0]);
+					}else{
+						deferred.reject();
+					}
+				});
+				return deferred.promise;
 			}
-		}]);//logica del negocio del product
+			//obetos que retorna el servicio tipo factory
+			return {
+				all : all,
+				byName : byName
+			}
+		}]);
 })();
