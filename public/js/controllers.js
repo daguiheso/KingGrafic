@@ -8,10 +8,11 @@
 			});
 		}])
 
-		.controller('PenPController', ['$scope', 'kinggraficService', function ($scope, kinggraficService) {
+		.controller('PenPController', ['$scope', '$routeParams', 'kinggraficService', function ($scope, $routeParams, kinggraficService) {
+			var name = $routeParams.name;
 			$scope.esfero = {};
 
-			kinggraficService.byName('Esfero Cortauñas')
+			kinggraficService.byName(name)
 				.then(function (data){
 					$scope.esfero = data;
 				})
