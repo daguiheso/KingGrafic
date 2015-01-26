@@ -1,9 +1,20 @@
 (function(){
 	angular.module('kinggrafic.filters', [])
-		.filter('imageify', function () {
-	    return function (input, ext) {
-	      var url = "img/esferosp/" + input.toLowerCase() + "." + ext || "jpg";
-	      return url;
-	    };
-  		});
+		.filter('normalize', function () {
+		    return function (input) {
+		    	if (!input) return "";
+		    	input = input
+	    	        .replace('♀', 'f')
+	    	        .replace('♂', 'm');
+	    	        // .replace(/\W+/g, "");
+		        return input.toLowerCase();
+		    };
+  		})
+
+		.filter('imageify', ['$filter', function ($filter) {
+		    return function (input, ext) {
+		      var url = "img/esferosp/" + $filter('normalize')(input) + "." + ext || "jpg";
+		      return url;
+		    };
+  		}]);
 })();
