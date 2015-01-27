@@ -13,7 +13,7 @@
 	        	return _.chain(data).groupBy(function (element, index) {
 	            	return Math.floor(index / n);
 	            }).toArray().value();
-	      	}
+	      	}	      	
 		}])
 
 		

@@ -35,34 +35,47 @@
 		  }
 		})
 
-		.directive('commentsData', function(){
+		.directive('commentsData', ['kinggraficService', function (kinggraficService){
 		  return{
 		    restrict: 'E',
 		    templateUrl: 'partials/comments-data.html',
-		    controller: function(){
-		      this.comments = [];
-		      this.comment = {};
-		      this.show = false;
 
-		      this.toggle = function () {
-		        this.show = !this.show;
+		    scope: {
+		    	name: '@name' // @ => obteniendo texto 
+		    },
+		    link: function (scope, element, attributes) {  // function o propiedad  link me permite enlazar las propiedades del scope con la directiva 
+		    	attributes.$observe('name', function (value) {
+		    		if (value) {
+		    			scope.name = value;
+		    			scope.comments = kinggraficService.getComments(value);
+		    		}
+		    	});
+		    },		    
+		    controller: function ($scope) {
+		      $scope.comments = kinggraficService.getComments($scope.name);
+		      $scope.comment = {};
+		      $scope.show = false;
+
+		      $scope.toggle = function () {
+		        $scope.show = !$scope.show;
 		      };
 
-		      this.anonymousChanged = function(){
-		        if (this.comment.anonymous) {
-		          this.comment.email = "";
+		      $scope.anonymousChanged = function(){
+		        if ($scope.comment.anonymous) {
+		          $scope.comment.email = "";
 		        }
 		      };
 
 		      //tampoco recibe params de entrada porque vamos a trabajar sobre el controller
-		      this.addComment = function(){
-		        this.comment.date = Date.now();
-		        this.comments.push(this.comment); //.push() ingresa un elemento en la ultima posicion del array
-		        this.comment = {}; //limpiar o resetear el comentario despues de agregado
+		      $scope.addComment = function(){
+		        $scope.comment.date = Date.now();
+		        kinggraficService.saveComment($scope.name, $scope.comment);
+		        $scope.comments = kinggraficService.getComments($scope.name);
+		        $scope.comment = {}; //limpiar o resetear el comentario despues de agregado
 		      };
 		    },
 		    controllerAs: 'cmtsCtrl'
 		  };
-		});
+		}]);
 
 })();
