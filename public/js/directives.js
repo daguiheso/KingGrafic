@@ -1,9 +1,9 @@
 (function(){
 	angular.module('kingGrafic.directives', [])
-		.directive('categoriaesferoData', function(){
+		.directive('categoriaproductData', function(){
 		  return{
 		    restrict: 'E',
-		    templateUrl: 'partials/categoriaesfero-data.html'
+		    templateUrl: 'partials/categoriaproduct-data.html'
 		  }
 		})
 

@@ -1,24 +1,24 @@
 <div>
 	<div class="page-header">
-		<h1>King Grafic <small class="pull-right">Showing <span class="badge">{{penPs.length}}</span> Products</small></h1>
+		<h1>King Grafic <small class="pull-right">Showing <span class="badge">{{products.length}}</span> Products</small></h1>
 	</div>
 
 	<div class="row" ng-repeat="group in groupped">
-		<div class="col-lg-3" ng-repeat="esfero in group">
+		<div class="col-lg-3" ng-repeat="product in group">
 			
 
 			<div class="product panel panel-primary">
 				<div class="panel-heading">
-				    <h1>{{esfero.name}}</h1>					
+				    <h1>{{product.name}}</h1>					
 				</div>
 				<div class="panel-body">
-					<a href="/#esfero/{{ esfero.name | normalize }}">
+					<a href="/#product/{{ product.name | normalize }}">
 			    		<imagen-data></imagen-data>			
 			    	</a>			
 				</div>
 		    	<div class="panel-footer">
 		    	  <div class="text-center">
-		    	    <small class="label label-info"> {{esfero.state}}</small>
+		    	    <small class="label label-info"> {{product.state}}</small>
 		    	  </div>
 		    	</div>  
 

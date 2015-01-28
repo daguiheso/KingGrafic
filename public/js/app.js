@@ -12,19 +12,17 @@
   app.config(['$routeProvider', function($routeProvider){
   	$routeProvider   //lamado de metodos encadenados
   		.when('/',{  //el  /  => ruta principal
-  			templateUrl: 'views/esferosPublicitarios.html',
+  			templateUrl: 'views/products.html',
         controller: 'ProductsController'
   		})
-  		.when('/esfero/:name', {  // when me hace match de la ruta  //variable id 
-  			templateUrl: 'views/esfero.html', //objeto de configuracion de la ruta 
+  		.when('/product/:name', {  // when me hace match de la ruta  //variable id 
+  			templateUrl: 'views/product.html', //objeto de configuracion de la ruta 
   			controller: 'ProductController', //injectando el controlador a esta ruta 
   		})
   		.otherwise({
   			redirectTo: '/'
   		});
   }]);
-
-
 
 })();
 

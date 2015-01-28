@@ -1,11 +1,11 @@
 <ul class="list-group">
   <li class="list-group-item">
-    <h3>{{esfero.name}}</h3>
+    <h3>{{product.name}}</h3>
   </li>
   <li class="list-group-item">
     <strong>Colores</strong>
     <span class="pull-right">
-      <span ng-repeat="color in esfero.colors" class="label color color-{{color | lowercase}}">
+      <span ng-repeat="color in product.colors" class="label color color-{{color | lowercase}}">
         {{"-"}}
       </span>         
     </span> 
@@ -13,13 +13,13 @@
   <li class="list-group-item">
     <strong>Categoria</strong>
     <span class="pull-right">
-      {{esfero.category}}
+      {{product.category}}
     </span>
   </li>        
 </ul>
 <div>
-    <p ng-repeat="desc in esfero.description">{{desc}}</p>
+    <p ng-repeat="desc in product.description">{{desc}}</p>
 </div>
 <span class="label label-info">
-  {{esfero.state}}
+  {{product.state}}
 </span>
