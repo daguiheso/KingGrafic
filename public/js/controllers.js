@@ -1,7 +1,7 @@
 (function(_) {
 	// 2 param es el arreglo de las dependencias 
 	angular.module('kingGrafic.controllers', []) //sin  ;  al final para tener chainmethods
-		.controller('PenPsController', ['$scope', 'kinggraficService', function ($scope, kinggraficService){
+		.controller('ProductsController', ['$scope', 'kinggraficService', function ($scope, kinggraficService){
 
 			kinggraficService.all().then(function (data){
 				$scope.penPs = data;
@@ -18,7 +18,7 @@
 
 		
 
-		.controller('PenPController', ['$scope', '$routeParams', 'kinggraficService', function ($scope, $routeParams, kinggraficService) {
+		.controller('ProductController', ['$scope', '$routeParams', 'kinggraficService', function ($scope, $routeParams, kinggraficService) {
 			var name = $routeParams.name;
 			$scope.esfero = {};
 

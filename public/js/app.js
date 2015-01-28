@@ -13,11 +13,11 @@
   	$routeProvider   //lamado de metodos encadenados
   		.when('/',{  //el  /  => ruta principal
   			templateUrl: 'views/esferosPublicitarios.html',
-        controller: 'PenPsController'
+        controller: 'ProductsController'
   		})
   		.when('/esfero/:name', {  // when me hace match de la ruta  //variable id 
   			templateUrl: 'views/esfero.html', //objeto de configuracion de la ruta 
-  			controller: 'PenPController', //injectando el controlador a esta ruta 
+  			controller: 'ProductController', //injectando el controlador a esta ruta 
   		})
   		.otherwise({
   			redirectTo: '/'
