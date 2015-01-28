@@ -1,6 +1,6 @@
 (function () {
 
-  var app = angular.module('penPublicity', [
+  var app = angular.module('kingGrafic', [
     'kinggrafic.services',
   	'ngRoute', 
     'kinggrafic.controllers',
