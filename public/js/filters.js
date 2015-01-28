@@ -1,5 +1,5 @@
 (function(){
-	angular.module('kinggrafic.filters', [])
+	angular.module('kingGrafic.filters', [])
 		.filter('normalize', function () {
 		    return function (input) {
 		    	if (!input) return "";

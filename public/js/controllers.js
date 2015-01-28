@@ -1,6 +1,6 @@
 (function(_) {
 	// 2 param es el arreglo de las dependencias 
-	angular.module('kinggrafic.controllers', []) //sin  ;  al final para tener chainmethods
+	angular.module('kingGrafic.controllers', []) //sin  ;  al final para tener chainmethods
 		.controller('PenPsController', ['$scope', 'kinggraficService', function ($scope, kinggraficService){
 
 			kinggraficService.all().then(function (data){

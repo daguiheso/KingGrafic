@@ -1,5 +1,5 @@
 (function(){
-	angular.module('kinggrafic.services',[])
+	angular.module('kingGrafic.services',[])
 		.factory('kinggraficService', ['$http', '$q', '$filter', '$window', function($http, $q, $filter, $window){
 			//logica del negocio del product
 			var localStorage = $window.localStorage;

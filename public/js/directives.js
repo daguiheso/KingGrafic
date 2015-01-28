@@ -1,5 +1,5 @@
 (function(){
-	angular.module('kinggrafic.directives', [])
+	angular.module('kingGrafic.directives', [])
 		.directive('categoriaesferoData', function(){
 		  return{
 		    restrict: 'E',

@@ -1,11 +1,11 @@
 (function () {
 
   var app = angular.module('kingGrafic', [
-    'kinggrafic.services',
   	'ngRoute', 
-    'kinggrafic.controllers',
-    'kinggrafic.directives',
-    'kinggrafic.filters'
+    'kingGrafic.services',
+    'kingGrafic.controllers',
+    'kingGrafic.directives',
+    'kingGrafic.filters'
   ]);
 
   //el modulo routeProvider esta siendo injectado a la funcion routeProvider
