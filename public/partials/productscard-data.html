@@ -1,0 +1,15 @@
+<div class="product panel panel-primary">
+	<div class="panel-heading">
+	    <h1>{{product.name}}</h1>					
+	</div>
+	<div class="panel-body">
+		<a href="/#product/{{ product.name | normalize }}">
+    		<imagen-data></imagen-data>			
+    	</a>			
+	</div>
+	<div class="panel-footer">
+	  <div class="text-center">
+	    <small class="label label-info"> {{product.state}}</small>
+	  </div>
+	</div>  
+</div>

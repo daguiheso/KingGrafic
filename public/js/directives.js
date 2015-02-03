@@ -35,6 +35,13 @@
 		  }
 		})
 
+		.directive('productscardData', function(){
+			return{
+				restrict: 'E',
+				templateUrl: 'partials/productscard-data.html'
+			}
+		})
+
 		.directive('commentsData', ['kinggraficService', function (kinggraficService){
 		  return{
 		    restrict: 'E',
