@@ -13,8 +13,8 @@
 
 		.filter('imageify', ['$filter', function ($filter) {
 		    return function (input, ext) {
-		      var url = "img/pens/" + $filter('normalize')(input) + "." + ext || "jpg";
-		      return url;
+		    	var url = "img/pens/" + $filter('normalize')(input) + "." + ext || "jpg";
+		    	return url;
 		    };
   		}]);
 })();

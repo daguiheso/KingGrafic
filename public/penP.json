@@ -251,7 +251,7 @@
     "id": "500",
     "name": "Botilito No 1",
     "nameimg": "bn1-1",
-    "category": "Esferos Publicitarios",
+    "category": "Botilitos",
     "colors": [
       "Azul",
       "Rojo",
@@ -273,6 +273,235 @@
       "bn1-2",
       "bn1-3",
       "bn1-4"
+    ]
+  },
+  {
+    "id": "501",
+    "name": "Botilito No 2",
+    "nameimg": "bn2-1",
+    "category": "Botilitos",
+    "colors": [
+      "Azul",
+      "Rojo",
+      "Verde",
+      "Amarillo",
+      "Naranja",
+      "Negro"
+    ],
+    "state": "En Transito",
+    "description": [
+      "Botilito Plástico Antideslizante. 23oz",
+      "Solo para bebidas frias."
+    ],
+    "height": "16 cm",
+    "material": "Plástico",
+    "typePrint": "Impresión en Tinta Metálica.",
+    "areaPrint": "40 x 42 mm - 70 x 20 mm (tinta metálica) (color plata solamente)",
+    "flete": "NO se Asume el Flete de Este Producto.",
+    "images": [
+      "bn2-2",
+      "bn2-3",
+      "bn2-4"
+    ]
+  },
+  {
+    "id": "502",
+    "name": "Botilito No 3",
+    "nameimg": "bn3-1",
+    "category": "Botilitos",
+    "colors": [
+      "Azul",
+      "Rojo",
+      "Verde",
+      "Amarillo"
+    ],
+    "state": "En Transito",
+    "description": [
+      "Botilito en plástico. 24 oz",
+      "Diseño balón."
+    ],
+    "height": "22,5 cm",
+    "material": "Plástico",
+    "typePrint": "n/a",
+    "areaPrint": "n/a",
+    "flete": "NO se Asume el Flete de Este Producto.",
+    "images": [
+      "bn3-2",
+      "bn3-3",
+      "bn3-4"
+    ]
+  },
+  {
+    "id": "503",
+    "name": "Botilito No 4",
+    "nameimg": "bn4-1",
+    "category": "Botilitos",
+    "colors": [
+      "Azul",
+      "Rojo",
+      "Verde",
+      "Amarillo"
+    ],
+    "state": "En Transito",
+    "description": [
+      "Botilito en plástico. 44 oz"
+    ],
+    "height": "23 cm",
+    "material": "Plástico",
+    "typePrint": "Impresión en Tinta Metálica",
+    "areaPrint": "48 x 48 mm",
+    "flete": "NO se Asume el Flete de Este Producto.",
+    "images": [
+      "bn4-2",
+      "bn4-3",
+      "bn4-4"
+    ]
+  },
+  {
+    "id": "504",
+    "name": "Botilito No 5",
+    "nameimg": "bn5-1",
+    "category": "Botilitos",
+    "colors": [
+      "Azul",
+      "Rojo",
+      "Verde",
+      "Amarillo"
+    ],
+    "state": "En Transito",
+    "description": [
+      "Botilito en plástico. 20 oz"
+    ],
+    "height": "23 cm",
+    "material": "Plástico",
+    "typePrint": "Impresión en Tinta Metálica",
+    "areaPrint": "48 x 48 mm",
+    "flete": "NO se Asume el Flete de Este Producto.",
+    "images": [
+      "bn5-2",
+      "bn5-3",
+      "bn5-4"
+    ]
+  },
+  {
+    "id": "505",
+    "name": "Vaso Pitillo",
+    "nameimg": "vp-1",
+    "category": "Botilitos",
+    "colors": [
+      "Azul",
+      "Verde"
+    ],
+    "state": "En Transito",
+    "description": [
+      "Vaso de plastico escarchado con tapa y pitillo flexible. 10 oz"
+    ],
+    "height": "16 cm",
+    "material": "Plástico",
+    "typePrint": "Impresión en Tinta Metálica",
+    "areaPrint": "Impresion a una tinta Metálica Plata: Circulo de 40 mm",
+    "flete": "NO se Asume el Flete de Este Producto.",
+    "images": [
+      "vp-2",
+      "vp-3",
+      "vp-4"
+    ]
+  },
+  {
+    "id": "506",
+    "name": "Botilito Deportivo",
+    "nameimg": "bde-1",
+    "category": "Botilitos",
+    "colors": [
+      "Gris",
+      "Verde"
+    ],
+    "state": "En Transito",
+    "description": [
+      "Moderno diseño con antideslizante. 26 oz"
+    ],
+    "height": "27 cm",
+    "material": "Plástico",
+    "typePrint": "Impresión en Tinta Plástica",
+    "areaPrint": "(frente)37 x 45 mm - (lateral) 70 x 30 mm",
+    "flete": "NO se Asume el Flete de Este Producto.",
+    "images": [
+      "bde-2",
+      "bde-3",
+      "bde-4"
+    ]
+  },
+  {
+    "id": "507",
+    "name": "Botilito H2O No 1",
+    "nameimg": "bh2on1-1",
+    "category": "Botilitos",
+    "colors": [
+      "Azul",
+      "Verde"
+    ],
+    "state": "En Transito",
+    "description": [
+      "Botilito en plástico y Metal. 26 oz"
+    ],
+    "height": "26,5 cm",
+    "material": "Plástico",
+    "typePrint": "Impresión en Tinta Metálica",
+    "areaPrint": "Impresión Metálica 45 x 45 mm",
+    "flete": "NO se Asume el Flete de Este Producto.",
+    "images": [
+      "bh2on1-2",
+      "bh2on1-3",
+      "bh2on1-4"
+    ]
+  },
+  {
+    "id": "508",
+    "name": "Botilito H2O No 2",
+    "nameimg": "bh2on2-1",
+    "category": "Botilitos",
+    "colors": [
+      "Azul",
+      "Verde"
+    ],
+    "state": "En Transito",
+    "description": [
+      "Botilito en plástico y base metálica. 24 oz",
+      "Con Pitillo."
+    ],
+    "height": "23,5 cm",
+    "material": "Plástico",
+    "typePrint": "Impresión en Tinta Plástica",
+    "areaPrint": "50 x 50 mm",
+    "flete": "NO se Asume el Flete de Este Producto.",
+    "images": [
+      "bh2on2-2",
+      "bh2on2-3",
+      "bh2on2-4"
+    ]
+  },
+  {
+    "id": "509",
+    "name": "Bebedor",
+    "nameimg": "b-1",
+    "category": "Botilitos",
+    "colors": [
+      "Azul",
+      "Verde"
+    ],
+    "state": "En Transito",
+    "description": [
+      "Cortierte la lata en botella. 14 oz"
+    ],
+    "height": "5 cm",
+    "material": "Plástico",
+    "typePrint": "No realizamos la impresión sobre este producto.",
+    "areaPrint": "n/a",
+    "flete": "NO se Asume el Flete de Este Producto.",
+    "images": [
+      "b-2",
+      "b-3",
+      "b-4"
     ]
   }
 ]
