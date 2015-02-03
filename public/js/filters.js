@@ -13,7 +13,7 @@
 
 		.filter('imageify', ['$filter', function ($filter) {
 		    return function (input, ext) {
-		      var url = "img/esferosp/" + $filter('normalize')(input) + "." + ext || "jpg";
+		      var url = "img/pens/" + $filter('normalize')(input) + "." + ext || "jpg";
 		      return url;
 		    };
   		}]);
