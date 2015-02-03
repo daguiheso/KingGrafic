@@ -1,6 +1,6 @@
 [
   {
-    "id": "0001",
+    "id": "1",
     "name": "Esfero Linterna 2",
     "nameimg": "el2-1",
     "category": "Esferos Publicitarios",
@@ -26,7 +26,7 @@
     ]
   },
   {
-    "id": "0002",
+    "id": "2",
     "name": "Esfero Táctil Resaltador",
     "nameimg": "etr-1",
     "category": "Esferos Publicitarios",
@@ -49,7 +49,7 @@
     ]
   },
   {
-    "id": "0003",
+    "id": "3",
     "name": "Esfero Linterna",
     "nameimg": "eli-1",
     "category": "Esferos Publicitarios",
@@ -71,7 +71,7 @@
     ]
   },
   {
-    "id": "0004",
+    "id": "4",
     "name": "Esfero Cortauñas",
     "nameimg": "ecñ-1",
     "category": "Esferos Publicitarios",
@@ -92,6 +92,187 @@
       "ecñ-2",
       "ecñ-3",
       "ecñ-4"
+    ]
+  },
+  {
+    "id": "5",
+    "name": "A70",
+    "nameimg": "a70-1",
+    "category": "Esferos Publicitarios",
+    "colors": [
+      "Azul",
+      "Rojo",
+      "Amarillo",
+      "Verde",
+      "Gris"
+    ],
+    "state": "En Transito",
+    "description": [
+      "Esfero con 3 franjas metalizadas, retráctil."
+    ],
+    "height": "14 cm",
+    "material": "Aluminio",
+    "typePrint": "No realizamos la impresión sobre este producto.",
+    "areaPrint": "n/a",
+    "flete": "Incluido por compras mayores a 250000",
+    "images": [
+      "a70-2",
+      "a70-3",
+      "a70-4"
+    ]
+  },
+  {
+    "id": "6",
+    "name": "Esfero Resaltador Clic",
+    "nameimg": "erc-1",
+    "category": "Esferos Publicitarios",
+    "colors": [
+      "Amarillo",
+      "Verde"
+    ],
+    "state": "En Transito",
+    "description": [
+      "Esfero de girar que en su interior contiene un resaltador independiente."
+    ],
+    "height": "14,5 cm",
+    "material": "Plástico",
+    "typePrint": "Impresión en Tinta Plástica.",
+    "areaPrint": "70 x 7 mm",
+    "flete": "Incluido por compras mayores a 250000",
+    "images": [
+      "erc-2",
+      "erc-3",
+      "erc-4"
+    ]
+  },
+  {
+    "id": "7",
+    "name": "Esfero Calendario Táctil",
+    "nameimg": "ect-1",
+    "category": "Esferos Publicitarios",
+    "colors": [
+      "Rojo",
+      "Azul",
+      "Verde"
+    ],
+    "state": "En Transito",
+    "description": [
+      "Esfero con calendario, tactil."
+    ],
+    "height": "14 cm",
+    "material": "Plástico",
+    "typePrint": "Impresión en Tinta Plástica.",
+    "areaPrint": "70 x 7 mm",
+    "flete": "Incluido por compras mayores a 250000",
+    "images": [
+      "ect-2",
+      "ect-3",
+      "ect-4"
+    ]
+  },
+  {
+    "id": "8",
+    "name": "Esfero Táctil Tres Minas",
+    "nameimg": "ettm-1",
+    "category": "Esferos Publicitarios",
+    "colors": [
+      "Azul",
+      "Vinotinto",
+      "Verde",
+      "Negro"
+    ],
+    "state": "En Transito",
+    "description": [
+      "Esfero con sistma retractil de tres minas",
+      "Mina negra, roja y azul"
+    ],
+    "height": "14 cm",
+    "material": "Plástico",
+    "typePrint": "Impresión en Tinta Plástica.",
+    "areaPrint": "45 x 7 mm",
+    "flete": "Incluido por compras mayores a 250000",
+    "images": [
+      "ettm-2",
+      "ettm-3",
+      "ettm-4"
+    ]
+  },
+  {
+    "id": "9",
+    "name": "Esfero Táctil Dos Minas",
+    "nameimg": "etdm-1",
+    "category": "Esferos Publicitarios",
+    "colors": [
+      "Azul",
+      "Rojo",
+      "Verde"
+    ],
+    "state": "En Transito",
+    "description": [
+      "Un esfero con doble mina adaptado a sus necesidades."
+    ],
+    "height": "13,5 cm",
+    "material": "Plástico",
+    "typePrint": "Impresión en Tinta Plástica.",
+    "areaPrint": "70 mm x 7,5 mm",
+    "flete": "Incluido por compras mayores a 250000",
+    "images": [
+      "etdm-2",
+      "etdm-3",
+      "etdm-4"
+    ]
+  },
+  {
+    "id": "10",
+    "name": "B60",
+    "nameimg": "b60-1",
+    "category": "Esferos Publicitarios",
+    "colors": [
+      "Azul",
+      "Rojo",
+      "Verde"
+    ],
+    "state": "En Transito",
+    "description": [
+      "Esfer táctil y a su vez retráctil."
+    ],
+    "height": "14 cm",
+    "material": "Plástico",
+    "typePrint": "Impresión en Tinta Plástica.",
+    "areaPrint": "50 x 7 mm, Cuerpo superior 35 x 7 mm",
+    "flete": "Incluido por compras mayores a 250000",
+    "images": [
+      "b60-2",
+      "b60-3",
+      "b60-4"
+    ]
+  },
+  {
+    "id": "500",
+    "name": "Botilito No 1",
+    "nameimg": "bn1-1",
+    "category": "Esferos Publicitarios",
+    "colors": [
+      "Azul",
+      "Rojo",
+      "Verde",
+      "Amarillo",
+      "Naranja",
+      "Negro"
+    ],
+    "state": "En Transito",
+    "description": [
+      "Botilito Plástico Antideslizante. 30z"
+    ],
+    "height": "24,5 cm",
+    "material": "Plástico",
+    "typePrint": "Impresión en Tinta Metálica.",
+    "areaPrint": "40 x 42 mm - 70 x 20 mm (tinta metálica) (color plata solamente)",
+    "flete": "NO se Asume el Flete de Este Producto.",
+    "images": [
+      "bn1-2",
+      "bn1-3",
+      "bn1-4"
     ]
   }
 ]

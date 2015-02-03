@@ -5,7 +5,6 @@ body {
 img{
   border: 2px solid gray;
   border-radius: 4px;
-  /*box-shadow: 0px 0px 2px 5px rgba(0, 0, 0, 0.1);*/
 }
 
 .imgP{
@@ -59,6 +58,30 @@ img{
 
 .color-verde{
   background-color: green;
+}
+
+.color-plateado{
+  background-color: silver;
+}
+
+.color-amarillo{
+  background-color: yellow;
+}
+
+.color-gris{
+  background-color: gray;
+}
+
+.color-vinotinto{
+  background-color: rgb(93,18,24);
+}
+
+.color-negro{
+  background-color: black;
+}
+
+.color-naranja{
+  background-color: orangered;
 }
 
 .product {  
