@@ -84,6 +84,14 @@ img{
   background-color: orangered;
 }
 
+.color-rosado{
+  background-color: pink;
+}
+
+.color-blanco{
+  background-color: white;
+}
+
 .product {  
   height: 350px;
 }

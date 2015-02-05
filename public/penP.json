@@ -503,5 +503,205 @@
       "b-3",
       "b-4"
     ]
+  },
+  {
+    "id": "601",
+    "name": "Reloj Alto Relieve",
+    "nameimg": "rar-1",
+    "category": "Relojes",
+    "colors": [
+      "Azul",
+      "Rojo",
+      "Verde",
+      "Amarillo",
+      "Naranja",
+      "Negro",
+      "Rosado"
+    ],
+    "state": "En Transito",
+    "description": [
+      "Reloj inyectado en plástico, diseño juvenil y moderno, manesilla  plástica.",
+      "Grande - Pequeño - Mediano"
+    ],
+    "height": "34 cm - 23 cm - 18 cm",
+    "material": "Plástico",
+    "typePrint": "n/a",
+    "areaPrint": "n/a",
+    "flete": "NO se Asume el Flete de Este Producto.",
+    "images": [
+      "rar-2",
+      "rar-3",
+      "rar-4"
+    ]
+  },
+  {
+    "id": "602",
+    "name": "Reloj con Sensor",
+    "nameimg": "rcs-1",
+    "category": "Relojes",
+    "colors": [
+      "Gris",
+      "Negro"
+    ],
+    "state": "En Transito",
+    "description": [
+      "Reloj despertador  digital de mesa",
+      "Función de siesta y luz ,cronometro, posee un sensor de sonido que se enciende al aplaudir, al tocar o al generar algún sonido fuerte",
+      "Funciona con tres baterias AAA no incluidas."
+    ],
+    "height": "10 cm",
+    "width": "3 cm",
+    "material": "Plástico",
+    "typePrint": "Impresión en Tinta Plástica",
+    "areaPrint": "100 x 12 mm",
+    "flete": "NO se Asume el Flete de Este Producto.",
+    "images": [
+      "rcs-2",
+      "rcs-3",
+      "rcs-4"
+    ]
+  },
+  {
+    "id": "603",
+    "name": "Reloj Sarten",
+    "nameimg": "rs-1",
+    "category": "Relojes",
+    "colors": [
+      "Gris",
+      "Negro"
+    ],
+    "state": "En Transito",
+    "description": [
+      "Decore con estilo su cocina.",
+      "Reloj en forma de sarten, minutero y segundero en forma de cubiertos, con huevo adicional."
+    ],
+    "height": "18.5 cm",
+    "width": "4 cm",
+    "material": "Plástico",
+    "typePrint": "Impresión en Tinta Plástica",
+    "areaPrint": "10 x 75 mm",
+    "flete": "NO se Asume el Flete de Este Producto.",
+    "images": [
+      "rs-2",
+      "rs-3",
+      "rs-4"
+    ]
+  },
+  {
+    "id": "604",
+    "name": "Reloj 571",
+    "nameimg": "r51-1",
+    "category": "Relojes",
+    "colors": [
+      "Naranja"
+    ],
+    "state": "En Transito",
+    "description": [
+      "Marco en color plata diseño minimalista."
+    ],
+    "height": "30 cm",
+    "material": "Plástico",
+    "typePrint": "No realizamos la impresión sobre este producto.",
+    "areaPrint": "27,5 de Diámetro",
+    "flete": "NO se Asume el Flete de Este Producto.",
+    "images": [
+      "r51-2"
+    ]
+  },
+  {
+    "id": "605",
+    "name": "Reloj Péndulo",
+    "nameimg": "rp-1",
+    "category": "Relojes",
+    "colors": [
+      "Gris"
+    ],
+    "state": "En Transito",
+    "description": [
+      "Fino reloj con pndulo.",
+      "Requiere pila AA."
+    ],
+    "height": "53.5 cm",
+    "material": "Plástico",
+    "typePrint": "Impresión en Tinta Metálica",
+    "areaPrint": "Base 50 mm x 30 mm Péndulo diámetro 50 mm tinta metálica",
+    "flete": "NO se Asume el Flete de Este Producto.",
+    "images": [
+      "rp-2"
+    ]
+  },
+  {
+    "id": "606",
+    "name": "Reloj Pared Redondo",
+    "nameimg": "rpr-1",
+    "category": "Relojes",
+    "colors": [
+      "Azul",
+      "Rojo",
+      "Verde",
+      "Negro",
+      "Blanco"
+    ],
+    "state": "En Transito",
+    "description": [
+      "Reloj para insertar publicidad impresa.",
+      "Incluye maquinaría y mica."
+    ],
+    "height": "28 cm",
+    "material": "Plástico",
+    "typePrint": "Impresión en Tinta Plástica",
+    "areaPrint": "circulo de 20 cm.",
+    "flete": "NO se Asume el Flete de Este Producto.",
+    "images": [
+      "rpr-2"
+    ]
+  },
+  {
+    "id": "607",
+    "name": "Reloj Pared Cuadrado",
+    "nameimg": "rpc-1",
+    "category": "Relojes",
+    "colors": [
+      "Azul",
+      "Rojo",
+      "Verde",
+      "Negro",
+      "Amarillo",
+      "Negro",
+      "Blanco"
+    ],
+    "state": "En Transito",
+    "description": [
+      "Reloj para insertar publicidad impresa."
+    ],
+    "height": "27 cm",
+    "material": "Plástico",
+    "typePrint": "Impresión en Tinta Plástica",
+    "areaPrint": "22x22 cm",
+    "flete": "NO se Asume el Flete de Este Producto.",
+    "images": [
+      "rpc-2"
+    ]
+  },
+  {
+    "id": "607",
+    "name": "Maquinaría para Reloj",
+    "nameimg": "mpr-1",
+    "category": "Relojes",
+    "colors": [
+      "Negro"
+    ],
+    "state": "En Transito",
+    "description": [
+      "No incluye baterias."
+    ],
+    "height": "5.5 cm",
+    "material": "Plástico",
+    "typePrint": "n/a",
+    "areaPrint": "n/a",
+    "flete": "NO se Asume el Flete de Este Producto.",
+    "images": [
+      "mpr-1"
+    ]
   }
 ]
