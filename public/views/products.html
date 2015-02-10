@@ -2,8 +2,9 @@
 	<div class="page-header">
 		<h1>King Grafic <small class="pull-right">Showing <span class="badge">{{products.length}}</span> Products</small></h1>
 	</div>
+	<input type="text" ng-model="query" class="form-control" placeholder="Search">
 	<div class="row" ng-repeat="group in groupped">
-		<div class="col-lg-3" ng-repeat="product in group">	
+		<div class="col-lg-3" ng-repeat="product in group | filter:query">	
 			<productscard-data></productscard-data>
 		</div>
 	</div>
