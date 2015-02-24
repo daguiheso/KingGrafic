@@ -1,6 +1,7 @@
 (function () {
 
   var app = angular.module('kingGrafic', [
+    'angular-md5',
   	'ngRoute', 
     'kingGrafic.services',
     'kingGrafic.controllers',
