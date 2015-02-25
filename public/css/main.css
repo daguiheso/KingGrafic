@@ -126,3 +126,7 @@ img{
   width: 200px;
   margin: 1em;
 }
+
+.page-header h1 {
+  font-weight: 800;
+}
