@@ -121,3 +121,8 @@ img{
   position: relative;
   height: 250px;
 }
+
+.search {
+  width: 200px;
+  margin: 1em;
+}
